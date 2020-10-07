@@ -27,8 +27,8 @@
                             <div class="card-body">
                             <h2 class="header-text"><?php echo $row['movie_title'];?></h2>
 
-                                <p>Movie Rating is: <?php echo $row['movie_rating']; ?> </p>
-                                <p>Releasing Date is: <?php echo $row['release_date']; ?> </p>
+                                <p>Movie Rating: <?php echo $row['movie_rating']; ?> </p>
+                                <p>Releasing Date: <?php echo $row['release_date']; ?> </p>
                                 <p>Image: <?php echo $row['movie_img']; ?> </p>
                                 
                             </div>
